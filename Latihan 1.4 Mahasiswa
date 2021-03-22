@@ -1,0 +1,36 @@
+/**
+ * @owner Bramantio Aryo Arsyad
+ * @Class 2D SISTEM INFORMASI
+ * @NIM 11200930000094
+ */
+public class Mahasiswa {
+    String membaca;
+    int Belajar;
+    String modifikasi;
+
+
+    void printMahasiswa(){
+        System.out.println("Cara membaca cepat : \n"
+                            + membaca +"\n"
+                            + membaca +"\n"
+                            + membaca);
+        System.out.println("Ada " + belajar + " Cara belajar yang baik dan benar");
+        System.out.println("Cara cepat belajar : " + cepat);
+
+  }    
+}
+
+
+package Mhs;
+
+public class Mahasiswa {
+    public static void main(String[] args) {
+        Mahasiswa mahasiswaku = new Mahasiswa();
+
+        mahasiswaku.membaca = "Minumlah air putih yang banyak";
+        mahasiswaku.belajar = 100;
+        mahasiswaku.cepat = "Baca doa terlebih dahulu!";
+        mahasiswaku.printMahasiswa();
+
+    }
+}
