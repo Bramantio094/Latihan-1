@@ -1,0 +1,36 @@
+
+/**
+ * @Nama  : Bramantio Aryo Arsyad
+ * @Nim   : 11200930000094
+ * @Kelas : 2D
+ */
+
+package textbasedapplication;
+
+public class Mobil {
+    String warna;
+    int tahunProduksi;
+}
+
+-----------------------------------------------------------------------------------
+
+
+/**
+ * @Nama  : Bramantio aryo Arsyad
+ * @Nim   : 11200930000094
+ * @Kelas : 2D
+ */
+
+package textbasedapplication;
+
+public class MobilBeraksi {
+    public static void main(String[] args) {
+        Mobil mobilBramantio = new Mobil();
+        
+        mobilBramantio.warna = "Stripes";
+        mobilBramantio.tahunProduksi = 2019;
+        
+        System.out.println("Warna : " + mobilBramantio.warna);
+        System.out.println("Tahun Produksi : " + mobilBramantio.tahunProduksi );
+    }
+}
