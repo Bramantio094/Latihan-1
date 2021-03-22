@@ -1,0 +1,15 @@
+/**
+ * @Nama  : Bramantio Aryo Arsyad
+ * @Nim   : 11200930000094
+ * @Kelas : 2D
+ */
+
+
+
+public class HalloIndonesia {
+    public static void main(String[] args) {
+        System.out.println("Halo Jakarta");
+        System.out.println("Selamat Pagi Indonesia");
+        System.out.println("Jaya Indonesia");               
+    }
+}
